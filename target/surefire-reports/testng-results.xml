@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="287464" started-at="2019-02-12T00:30:42Z" finished-at="2019-02-12T00:35:30Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@2096442d]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="287464" started-at="2019-02-12T00:30:42Z" finished-at="2019-02-12T00:35:30Z">
+      <class name="Runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunner@2096442d]" name="setUpClass" is-config="true" duration-ms="279" started-at="2019-02-12T00:30:42Z" finished-at="2019-02-12T00:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@2096442d]" name="feature" duration-ms="45964" started-at="2019-02-12T00:30:43Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-02-12T00:31:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User should be able to book and hotel and check the reservation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@2096442d]" name="feature" duration-ms="42812" started-at="2019-02-12T00:31:29Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-02-12T00:32:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User login and profile update]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@2096442d]" name="feature" duration-ms="50202" started-at="2019-02-12T00:32:11Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-02-12T00:33:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login Validation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@2096442d]" name="feature" duration-ms="111109" started-at="2019-02-12T00:33:02Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-02-12T00:34:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin creates a new hotel and customer books a room in it]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@2096442d]" name="feature" duration-ms="31142" started-at="2019-02-12T00:34:53Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-02-12T00:35:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User login and relogin checks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@2096442d]" name="feature" duration-ms="5728" started-at="2019-02-12T00:35:24Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-02-12T00:35:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CMS Updates and SEO checks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@2096442d]" name="tearDownClass" is-config="true" duration-ms="106" started-at="2019-02-12T00:35:30Z" finished-at="2019-02-12T00:35:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,7 @@
+Steps\LoginValidationSteps.class
+Steps\LoginAndUpdateSteps.class
+Steps\ReloginSteps.class
+Steps\NewHotelSteps.class
+Steps\HotelBookingSteps.class
+Runner\TestRunner.class
+Steps\Hook.class
