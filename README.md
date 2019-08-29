@@ -1,2 +1,2 @@
 # automation-test
-Automation framework developed for a recruiting process
+Automation test framework using Java and Selenium Webdrivers
